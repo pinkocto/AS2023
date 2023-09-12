@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import simpledialog
+from rich.console import Console
 
 ROOT = tk.Tk()
 ROOT.withdraw()

@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import simpledialog
-from rich.console import Console
+# from rich.console import Console
+from rich import print
+
 
 ROOT = tk.Tk()
 ROOT.withdraw()
@@ -22,10 +24,10 @@ def main():
     temp_f = simple_gui_input()
     # 두 줄
     temp_c = f2c(temp_f)
-    print(f"{temp_f}F => {temp_c}℃")
+    print(f"{temp_f}F [bold red]=>[/bold red] {temp_c}℃")
 
     # 한 줄
-    print(f"{temp_f}F => {f2c(temp_f)}℃")
+    print(f"{temp_f}F [bold magenta]=>[/bold magenta] {f2c(temp_f)}℃")
 
 
 if __name__ == "__main__":

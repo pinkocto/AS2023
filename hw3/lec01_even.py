@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import simpledialog
 from rich import print
-#from rich.console import Console # 해당 방법은 적용이 안됨.
+#from rich.console import Console # 해당 방법은 적용이 안됨. -> [solution) run -> edit Emulate 체크!!]
 #console = Console()
 
 

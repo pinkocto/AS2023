@@ -59,7 +59,7 @@ def gugudan(): # dan을 빼고
     resp = ""
     resp += "<html>\n"
     resp += "<body>\n"
-    resp += f"<h2>구구단 {dan}단</h2>\n"
+    resp += f"<h2>구구단  {dan}단</h2>\n"
     resp += "<div>\n"
     for i in range(1, 20):
         resp += f"{dan:2d} * {i:2d} = {dan * i:3d}<br>\n"  # d는 int를 의미. / 소수는 f

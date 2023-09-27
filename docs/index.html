@@ -3,7 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>이성용의 홈페이지</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <style>-->
+<!--        body {margin: 0;}-->
+
+<!--        ul.topnav {-->
+<!--          list-style-type: none;-->
+<!--          margin: 0;-->
+<!--          padding: 0;-->
+<!--          overflow: hidden;-->
+<!--          background-color: #333;-->
+<!--        }-->
+
+<!--        ul.topnav li {float: left;}-->
+
+<!--        ul.topnav li a {-->
+<!--          display: block;-->
+<!--          color: white;-->
+<!--          text-align: center;-->
+<!--          padding: 14px 16px;-->
+<!--          text-decoration: none;-->
+<!--        }-->
+
+<!--        ul.topnav li a:hover:not(.active) {background-color: #111;}-->
+
+<!--        ul.topnav li a.active {background-color: #04AA6D;}-->
+
+<!--        ul.topnav li.right {float: right;}-->
+
+<!--        @media screen and (max-width: 600px) {-->
+<!--          ul.topnav li.right,-->
+<!--          ul.topnav li {float: none;}-->
+<!--        }-->
+<!--    </style>-->
+    <title>pinkocto's Homepage</title>
 <!--    css를 외부에서 가져다 붙일 때-->
     <link href="./practice.css" rel="stylesheet" type="text/css">
 <!--javascript 외부에서 가져다 붙일 때-->
@@ -12,22 +45,29 @@
 </head>
 
 <body>
-    <nav>
-<!--        # navigation의 약자-->
-        <a href="./index.html">Home</a>
-        <a href="./blog_list.html">Blog</a>
-        <a href="./about_me.html">About Me</a>
-    </nav>
 
-    <h1>첫번째 크기 헤드라인</h1>
-    <h2>두번째 크기 헤드라인</h2>
-    <h3>세번째 크기 헤드라인</h3>
-    <h4>네번째 크기 헤드라인</h4>
-    <h5>다섯번째 크기 헤드라인</h5>
+    <ul class="topnav">
+      <li><a class="active" href="./index.html">Home</a></li>
+      <li><a href="./blog_list.html">Blog</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="./about_me.html">About</a></li>
+    </ul>
 
+
+<!--    <nav>-->
+<!--&lt;!&ndash;        # navigation의 약자&ndash;&gt;-->
+<!--        <a href="./index.html">Home</a>-->
+<!--        <a href="./blog_list.html">Blog</a>-->
+<!--        <a href="./about_me.html">About Me</a>-->
+<!--    </nav>-->
+
+    <div class="header">
+        <h1>Hi There!</h1>
+        <p>4주차 응용소프트웨어 첫 번째 수업 덧셈 계산기 구현 페이지입니다.</p>
+    </div>
 
     <button onclick="whatTimeIsIt()">현재시간</button>
-    <hr />
+<!--    <hr />-->
 
     <!--    # onkeyup: 키보드의 키를 눌렀다 땠을 때, doSomething()함수 호출-->
     <label for="inputA">a</label>
@@ -39,8 +79,9 @@
 
     <p>문단은 p로 쓰세요. p는 아마도 Paragraph의 앞 자를 따 온 것이겠죠?</p>
     <a href="https://www.google.com">Go to google</a>
-    <hr />
+<!--    <hr />-->
     <img src="./images/stay_funky.jpg" width="600px">
 </body>
 
 </html>
+

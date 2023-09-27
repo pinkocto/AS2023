@@ -12,7 +12,8 @@ This repo is organized based on the contents of the Applied Software Development
 | 2wk-2 | 웹 기초1          | [HW4](https://github.com/pinkocto/AS2023/tree/main/hw4) | 웹 어플리케이션 자유주제 1개 (결과는 html로 화면에 출력될 것 / 입력은 따로 html만들거나, GET방식으로 전달해도 무방.)                                |                                                                                          |                                                                                                          | |                                                                                                          | |
 |3wk-1| 웹 기초2          | [HW5]()                                                 | 자유주제로 html입력과 ajax를 이용한 비동기 방식 2가지로 완성하기                                                                  |
 |3wk-2| 웹 기초3 (비동기 입력) | [HW6]()                                                 | 과제5로 만든 자유주제를 ajax를 이용한 비동기 방식으로 완성하기                                                                     |                                                                     |
-|4wk-1| HTML/CSS       | [HW7]()| 개인 홈페이지 만들기|                                                                                               |
+|4wk-1| HTML/CSS       | [HW7]()                                                 | 개인 홈페이지 만들기 (프론트엔드)||
+|4wk-2| Flask 연결       | HW8                                                     |백엔드로 연결|
 
 `-` ***some links***
 

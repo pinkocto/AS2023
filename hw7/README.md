@@ -1,4 +1,5 @@
-## HW7
+## HW7 (Github url)
+> 정적페이지 (Static Page) / Github 내용을 보여주는 것.
 
 1. 홈페이지는 최소 3개의 html를 만드시오.
 2. index.html 를 포함하고, 최상위 폴더에 docs를 만들어 저장하시오. (hw06 폴더에도 저장하시오.)

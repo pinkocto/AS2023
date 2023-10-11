@@ -21,7 +21,7 @@ clock = pygame.time.Clock()
 background = pygame.image.load("C:/code/AS2023/pygame/background.png")
 
 # 캐릭터 만들기
-character = pygame.image.load("C:/code/AS2023/pygame/dog.png")
+character = pygame.image.load("C:/code/AS2023/pygame/nana.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
